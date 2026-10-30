@@ -1,10 +1,4 @@
-"""
-SMB Bruteforce - Python port of the original .bat script
-Requires:  pip install impacket
-
-For authorized testing / education ONLY — run against systems you own
-or have written permission to test.
-"""
+# For authorized testing / education ONLY — run against systems you own
 import time
 from impacket.smbconnection import SMBConnection, SMB_DIALECT
 
